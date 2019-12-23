@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Roboto');
+
+body{
+
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+
+}
+
+.navbar-brand{
+
+    font-family: 'Pacifico';
+    font-size: 25px;
+    color: #1e90ff !important;
+}
+
+.nav-link{
+
+    font-size: 16px;
+    margin: 10px;
+    color: #1e90ff;
+    font-family: 'Roboto';
+
+}
+
+.nav-link:hover{
+
+    color: #00E8E8 !important;
+
+}
+
+.site-content{
+
+    background-image: url('/back2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.card{
+    width: 20rem;
+}
+
+.card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    height: 220px;
+    text-align: center;
+  }
+  .card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    padding:10px;
+    object-fit: cover;
+  }
+
+  .section-1 .heading-1{
+
+    margin-top: 5%;
+
+  }
+
+  .section-1 .heading-2{
+
+    font-size: 39px;
+    margin-bottom: 2%;
+    
+  }
+  .section-1 .para-1{
+
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+
+  }
+
+  .section-1 .card-text, .para-1{
+
+    color: rgba(0, 0, 0, 0.59);
+
+  }
+
+  .section-1{
+      margin-bottom: 8%;
+  }
+
+  @media screen and (max-width: 1200px){
+        
+    .section-1 .card{
+
+        width: 14rem;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 768px){
+        
+    .section-1 .card{
+
+        width: 30rem;
+        
+    }
+    .col-md-4, .col-sm-12{
+        margin-bottom: 2%;
+    }
+
+  }
+
+  .page-footer{
+
+    background-color: #eee;
+
+  }
+
+  .underline{
+
+    width: 70px;
+    background-color: #1e90ff;
+
+  }
+
+  .imageClass{
+
+    background-attachment: fixed;
+    background-size: cover;
+    height: 65vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .navBar{
+
+    background-color: #FFFFFF !important;
+
+  }
+
+  .roundedBorder{
+
+    border-radius: 1.5rem;
+
+  }
+
+  .carousel-item {
+    height: 75vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .pb-cmnt-textarea {
+    resize: none;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+  }
+  .ccard {
+    background: #FFFFFF;
+    padding: 3em;
+    line-height: 1.5em; 
+  }
+
+  .sidebar
+{
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background: linear-gradient(rgb(77, 74, 75), rgb(90, 50, 94), rgb(117, 117, 130));
+}
+
+.mediaMargin{
+
+  margin-left: 250px;
+  padding: 1px 16px;
+  
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .mediaMargin{margin-left: 0;}
+}
+#border li:hover{
+
+  background-color:#eee;
+  border-radius: 3rem; 
+}
+ 
+#border li a{
+
+  color: white; 
+}
+
+#addProduct{
+
+  border: 1px solid #ddd;
+  background-color: #FFFFFF;
+}
+#bekaar{
+
+  min-height: 300px;
+  color: white;
+
+}
+#addProduct .col-md-4{
+
+  background-image: url('/back2.jpg');
+  background-size: cover;
+
+}
+
+
+#addProduct .col-md-8{
+
+  padding: 40px 30px;
+
+}
+
+
+#addProduct .btn-info{
+
+  width: 170px;
+  border-radius: 50px;
+  height: 50px;
+  font-size: 20px;
+
+}
+
+.info-wrap {
+  overflow: hidden;
+  padding: 15px;
+  height: 150px;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top:0;
+  left:100%;
+  margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
